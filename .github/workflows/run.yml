@@ -27,7 +27,6 @@ jobs:
                   git config user.name 'GitHub Actions'
                   git config user.email 'actions@users.noreply.github.com'
                   
-                  # commit our changes (data collection)
                   git add -A
                   git commit -m 'Updates' || exit 0
                   git push
