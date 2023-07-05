@@ -6,6 +6,7 @@
 # req = requests.get(url, headers = headers)
 
 output = 'this is a test'
+print(output)
 
 # soup = bs(req.content)
 # for x in soup.find('a', class_ = 'u-faux-block-link__overlay js-headline-text'):
