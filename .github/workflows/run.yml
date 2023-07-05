@@ -19,7 +19,7 @@ jobs:
             - uses: actions/checkout@v3
             - uses: actions/setup-python@v4
             
-            # run and save with a timestamped filename so we can follow what we've got
+            # run and save output with a timestamped filename so we can distinguish what we've got
             - run: python timertest.py > data/$(date +%Y%m%d-%H%M%S).txt
             
             # add the data to our repository
